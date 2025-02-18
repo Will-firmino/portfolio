@@ -93,3 +93,16 @@ SEÇÃO DE EXPERIÊNCIA
     grid-template-columns: 1fr 2fr;
     gap: 100px;
 }
+
+.experiencia .subtitulo {
+    color: #e0e0e0;
+}
+
+.experiencia-texto {
+   font-size: 24px; 
+   
+}
+
+.subtitulo {
+    font-size: 144px;
+}
