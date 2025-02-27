@@ -100,9 +100,27 @@ SEÇÃO DE EXPERIÊNCIA
 
 .experiencia-texto {
    font-size: 24px; 
+   margin-bottom: 60px;
+   color: #525252;
+   max-width: 50ch; 
    
 }
 
 .subtitulo {
     font-size: 144px;
+    text-transform: uppercase;
+    max-width: 4ch;  /* O valor em ch refere-se a caracter. Mantem esse número de ch na linha. */
+    word-break: break-all; /* Utilizado com o o valor ch, faz com que seja quebrado a palavra quando chegar ao número de ch informado.  */
+    line-height: 1; /* Informa o tamanho do espaçamento das linhas. */
+    letter-spacing: 0; /* Informa o tamanho do espeçamento entre as letras. */
+}
+
+.empresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+    background: #8d5d92;
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
