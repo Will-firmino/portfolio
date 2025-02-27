@@ -120,7 +120,63 @@ SEÇÃO DE EXPERIÊNCIA
     grid-template-columns: 1fr 1fr;
     gap: 10px 20px;
     padding: 20px;
-    background: #8d5d92;
     border-radius: 4px;
     margin-bottom: 20px;
+}
+
+.empresa-ano {
+    text-align: right;
+    color: #525252;
+    font-size: 14px;
+    background-color: #8883bb;
+}
+
+.empresa-titulo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.empresa-texto {
+    font-size: 14px;
+    color: #525252;
+    font-weight: bold; /* Aumenta o peso da letra. */
+}
+
+/* 
+======================
+SEÇÃO DO FOOTER
+======================
+*/
+
+.footer {
+    background: #000000;
+    color: #ffffff;
+}
+
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px 60px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.footer-texto {
+    font-size: 24px;
+    color: #cccccc;
+}
+
+.footer-contato li {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-contato li a {
+    color: #ffffff;
+    text-decoration: none;
 }
